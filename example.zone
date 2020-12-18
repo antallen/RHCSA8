@@ -1,0 +1,13 @@
+$TTL 10
+@	IN SOA dns root (
+		2020121301
+		1H
+		2D
+		3W
+		10 )
+@		IN NS dns
+
+dns 	IN A 172.24.1.254
+server	IN A 172.24.1.254
+red	IN A 172.24.1.10
+blue	IN A 172.24.1.11
